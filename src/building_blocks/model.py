@@ -121,7 +121,7 @@ def run_api(model, prompt, max_tokens_to_sample: int = 100000, temperature: floa
     if model.startswith('claude') or model.startswith('Claude'):
         plan = run_claude(prompt,max_tokens_to_sample=max_tokens_to_sample,temperature=temperature)
     elif model.startswith('gpt') or model.startswith('GPT'):# == "gpt-4-1106-preview":
-        plan = run_gpt(prompt,temperature=temperature)
+        plan = run_gpt(prompt,temperature=temperature,model=model)
     else:
         raise ValueError("Invalid model name")
     return plan
@@ -143,8 +143,8 @@ def run_claude(text_prompt, max_tokens_to_sample: int = 100000, temperature: flo
 
 def run_gpt(text_prompt, temperature: float = 0, model = "gpt-4-1106-preview"):
     open_ai_key = os.environ["OPENAI_API_KEY"]
-    # can also use gpt-3.5-turbo or gpt-4
-    client = OpenAI(api_key=open_ai_key)
+    # can also use gpt-3.5-turbo-16k or gpt-4
+    client = OpenAI(api_key=open_ai_key, base_url='https://api.chatanywhere.tech')
     response = client.chat.completions.create(
       model = model, 
       messages=[
