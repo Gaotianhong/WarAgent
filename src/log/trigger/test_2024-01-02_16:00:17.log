@@ -1,0 +1,171 @@
+Trigger: Country S sent assassins and killed the King of Country A
+
+
+===================
+~~~~~~~Day 1~~~~~~~
+===================
+Britain
+
+To German Empire: Britain has chosen to Request Military Alliance to German Empire
+To USA: Britain has chosen to Send Message to USA with the following content: We are interested in forming an alliance to strengthen our positions and protect our interests. Let's discuss further.
+--------------
+
+France
+
+To German Empire: France has chosen to Request Military Alliance to German Empire
+To Russia: France has chosen to Request Military Alliance to Russia
+--------------
+
+German Empire
+
+To Austria-Hungary: German Empire has chosen to Request Military Alliance to Austria-Hungary
+To USA: German Empire has chosen to Request Military Alliance to USA
+To France: German Empire has chosen to Declare War against France
+--------------
+
+Austria-Hungary
+
+To German Empire: Austria-Hungary has chosen to Request Military Alliance to German Empire
+To USA: Austria-Hungary has chosen to Request Non-Intervention Treaty to USA
+--------------
+
+Russia
+
+To Serbia: Russia has chosen to Request Military Alliance to Serbia
+To USA: Russia has chosen to Request Non-Intervention Treaty to USA
+--------------
+
+Serbia
+
+To Russia: Serbia has chosen to Request Military Alliance to Russia
+To German Empire: Serbia has chosen to Request Non-Intervention Treaty to German Empire
+--------------
+
+USA
+
+To Britain: USA has chosen to Request Military Alliance to Britain
+To German Empire: USA has chosen to Request Military Alliance to German Empire
+To France: USA has chosen to Request Military Alliance to France
+To Britain: USA has chosen to Send Message to Britain with the following content: I would like to discuss the potential benefits of forming a military alliance.
+To German Empire: USA has chosen to Send Message to German Empire with the following content: Let's discuss the possibility of forming a military alliance to counter potential threats.
+To France: USA has chosen to Send Message to France with the following content: We should consider forming a military alliance to counter the aggression of German Empire.
+--------------
+
+Ottoman Empire
+
+To Russia: Ottoman Empire has chosen to Request Military Alliance to Russia
+To USA: Ottoman Empire has chosen to Request Non-Intervention Treaty to USA
+--------------
+
+Board for Country B
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country B
+Country P's army is mobilized. 
+--------
+Board for Country F
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country F
+Country P's army is mobilized. 
+--------
+Board for Country P
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country P
+Country P's army is mobilized. 
+--------
+Board for Country A
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country A
+Country P's army is mobilized. 
+--------
+Board for Country R
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country R
+Country P's army is mobilized. 
+--------
+Board for Country S
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country S
+Country P's army is mobilized. 
+--------
+Board for Country U
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country U
+Country P's army is mobilized. 
+--------
+Board for Country O
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+
+Stick for Country O
+Country P's army is mobilized. 
+--------
+===================
+~~~~~~~Day 2~~~~~~~
+===================
+Britain
+
+Britain has chosen to Wait without Action
+--------------
+

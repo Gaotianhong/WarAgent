@@ -1,0 +1,415 @@
+(waragent) root@f5i9j8l5mrpp5-0:src# python main.py --model gpt-3.5-turbo-16k --scenario WWI --present_thought_process
+===================
+~~~~~~~Day 1~~~~~~~
+===================
+Secretary has checked the proposed actions by Country B and agree with the action list.
+Britain
+[Begin Thought Process:]
+1. Thought for Action:
+- Identify Potential Ally Countries: 
+   - Potential allies: German Empire, USA
+- Analyze Potential Ally Actions: 
+   - German Empire: German Empire has aggressive foreign policy and aims to defeat Britain. It is not a reliable ally in the long run.
+   - USA: USA prioritizes self-interest and is isolationist. It may not be interested in forming an alliance.
+- Identify Potential Enemy Countries: 
+   - Potential enemies: France, Serbia, Austria-Hungary, Russia, Ottoman Empire
+- Analyze Potential Enemy Actions: 
+   - France: France wants revenge on German Empire and may consider forming an alliance against Britain.
+   - Serbia: Serbia has ambitions to expand its territory and may consider attacking Britain.
+   - Austria-Hungary: Austria-Hungary seeks external conflicts to divert attention and unify the country. It may consider attacking Britain.
+   - Russia: Russia has interest conflicts with Austria-Hungary and may support Serbia against Britain.
+   - Ottoman Empire: Ottoman Empire has tense relations with Russia and may join forces against Britain.
+- First Actions to Perform: 
+   - Request Military Alliance with German Empire to strengthen military power against potential enemies.
+   - Send Message to USA to explore the possibility of forming an alliance.
+- Summarize Analysis on Situation: 
+   - The assassination of the King of Austria-Hungary by Serbia has created a tense situation. Britain needs to strengthen its military power and form alliances to protect itself from potential enemies. Requesting a military alliance with German Empire and exploring the possibility of an alliance with USA are the first actions to perform.
+
+2. The Actions to Perform: Request Military Alliance, Send Message
+
+3. Corresponding Action Inputs:
+- Request Military Alliance: ["German Empire"]
+- Send Message: [("USA", "We are interested in forming an alliance to strengthen our positions and protect our interests. Let's discuss further.")]
+
+4. Present Final Action List in JSON format:
+
+[End Thought Process]
+To German Empire: Britain has chosen to Request Military Alliance to German Empire
+To USA: Britain has chosen to Send Message to USA with the following content: We are interested in forming an alliance to strengthen our positions and protect our interests. Let's discuss further.
+--------------
+Secretary has checked the proposed actions by Country F and agree with the action list.
+France
+[Begin Thought Process:]
+1. Thought for Action:
+- Identify Potential Ally Countries: 
+   - Potential allies: German Empire, Russia
+- Analyze Potential Ally Actions: 
+   - German Empire: German Empire has aggressive foreign policy and aims to defeat Britain. They may be willing to form an alliance to weaken Britain.
+   - Russia: Russia has interest conflicts with Austria-Hungary and Serbia. They may be interested in forming an alliance to counter their enemies.
+- Identify Potential Enemy Countries: 
+   - Potential enemies: Britain, Serbia
+- Analyze Potential Enemy Actions: 
+   - Britain: Britain aims to maintain its position as the strongest country and weaken any country that challenges it, including France. They may take actions to counter France's revenge.
+   - Serbia: Serbia has the ambition to expand its territory and wants revenge against Austria-Hungary. They may take actions to counter France's revenge.
+- First Actions to Perform: 
+   - Request Military Alliance with German Empire and Russia to strengthen the position against potential enemies and gain support for revenge against German Empire.
+- Summarize Analysis on Situation: 
+   - The assassination of the King of Austria-Hungary by Serbia has created tension and potential for conflict. France should seek alliances with German Empire and Russia to strengthen its position and gain support for revenge against German Empire. Britain and Serbia are potential enemies that may take actions against France.
+
+2. The Actions to Perform: 
+- Request Military Alliance: ["German Empire", "Russia"]
+
+3. Corresponding Action Inputs: 
+- Request Military Alliance: ["German Empire", "Russia"]
+
+4. Present Final Action List in JSON format: 
+
+[End Thought Process]
+To German Empire: France has chosen to Request Military Alliance to German Empire
+To Russia: France has chosen to Request Military Alliance to Russia
+--------------
+Secretary has checked the proposed actions by Country P and agree with the action list.
+German Empire
+[Begin Thought Process:]
+1. Thought for Action:
+- Identify Potential Ally Countries: 
+   - Austria-Hungary and USA could potentially be allies as they share common political interests with German Empire.
+- Analyze Potential Ally Actions: 
+   - Austria-Hungary seeks external conflicts to divert attention and unify the country, which aligns with German Empire's ambition to dominate the world.
+   - USA prioritizes self-interest and avoiding war unless profitable, which aligns with German Empire's policy of maximizing self-interest.
+- Identify Potential Enemy Countries: 
+   - France and Britain are potential enemies as they have hostile relations with German Empire.
+- Analyze Potential Enemy Actions: 
+   - France wants revenge on German Empire and to take back the iron mines, which poses a threat to German Empire's interests.
+   - Britain aims to maintain its position as the strongest country and weaken any country challenging it, including German Empire.
+- First Actions to Perform: 
+   - Request military alliance with Austria-Hungary and USA to strengthen German Empire's power and deter potential enemies.
+   - Consider declaring war on France to neutralize the threat and prevent them from regaining the iron mines.
+- Summarize Analysis on Situation: 
+   - German Empire should prioritize forming alliances with Austria-Hungary and USA to strengthen its power and deter potential enemies. It should also consider declaring war on France to neutralize the threat and protect its interests.
+
+2. The Actions to Perform: 
+- Request Military Alliance: ["Austria-Hungary", "USA"]
+- Declare War: ["France"]
+
+3. Corresponding Action Inputs: 
+- Request Military Alliance: ["Austria-Hungary", "USA"]
+- Declare War: ["France"]
+
+4. Present Final Action List in JSON format: 
+
+[End Thought Process]
+To Austria-Hungary: German Empire has chosen to Request Military Alliance to Austria-Hungary
+To USA: German Empire has chosen to Request Military Alliance to USA
+To France: German Empire has chosen to Declare War against France
+--------------
+Secretary has checked the proposed actions by Country A and agree with the action list.
+Austria-Hungary
+[Begin Thought Process:]
+1. Thought for Action:
+- Identify Potential Ally Countries: 
+   - Potential allies: German Empire, USA
+- Analyze Potential Ally Actions: 
+   - German Empire: German Empire has aggressive foreign policies and aims to defeat Britain. They may be willing to form an alliance to weaken Britain.
+   - USA: USA prioritizes self-interest and avoiding war. They may not be interested in forming an alliance unless it is profitable for them.
+- Identify Potential Enemy Countries: 
+   - Potential enemies: Serbia, Russia
+- Analyze Potential Enemy Actions: 
+   - Serbia: Serbia has ambitions to expand its territory and may see Austria-Hungary as a target. They have already sent assassins to kill the King of Austria-Hungary, indicating hostility.
+   - Russia: Russia has interest conflicts with Austria-Hungary over lands with natural ports. They may take advantage of the current situation to further their own interests.
+- First Actions to Perform: 
+   - Request Military Alliance with German Empire to strengthen the position against potential enemies and weaken Britain.
+   - Request Non-Intervention Treaty with USA to ensure they do not intervene in any conflicts involving Austria-Hungary.
+- Summarize Analysis on Situation: 
+   - The assassination of the King of Austria-Hungary by Serbia indicates hostility and potential aggression. It is important to strengthen alliances and secure non-intervention treaties to protect the interests of Austria-Hungary. Requesting a military alliance with German Empire can help weaken Britain, while a non-intervention treaty with USA can ensure they do not interfere in any conflicts involving Austria-Hungary.
+
+2. The Actions to Perform: 
+- Request Military Alliance: ["German Empire"]
+- Request Non-Intervention Treaty: ["USA"]
+
+3. Corresponding Action Inputs: 
+- Request Military Alliance: ["German Empire"]
+- Request Non-Intervention Treaty: ["USA"]
+
+4. Present Final Action List in JSON format: 
+
+[End Thought Process]
+To German Empire: Austria-Hungary has chosen to Request Military Alliance to German Empire
+To USA: Austria-Hungary has chosen to Request Non-Intervention Treaty to USA
+--------------
+Secretary has checked the proposed actions by Country R and agree with the action list.
+Russia
+[Begin Thought Process:]
+1. Thought for Action:
+- Identify Potential Ally Countries: 
+   - Potential allies: Serbia, USA
+- Analyze Potential Ally Actions: 
+   - Serbia: Serbia has the ambition to expand its territory and has a strong desire for revenge against Austria-Hungary. They may be willing to form an alliance to achieve their goals.
+   - USA: USA prioritizes self-interest and avoiding war. They may not be interested in forming an alliance unless it is beneficial for them.
+- Identify Potential Enemy Countries: 
+   - Potential enemies: Austria-Hungary, France, German Empire
+- Analyze Potential Enemy Actions: 
+   - Austria-Hungary: Austria-Hungary may seek revenge against Serbia for the assassination of their king. They may also be interested in expanding their territory.
+   - France: France has a history of conflict with German Empire and may be interested in revenge and regaining their lost iron mines.
+   - German Empire: German Empire has aggressive foreign policies and aims to dominate the world. They may see Russia as a potential threat and may want to weaken or defeat them.
+- First Actions to Perform: 
+   - Request Military Alliance with Serbia to strengthen the position against potential enemies and gain support in case of conflict.
+   - Request Non-Intervention Treaty with USA to ensure they do not intervene in any potential conflicts.
+- Summarize Analysis on Situation: 
+   - The assassination of the King of Austria-Hungary by Serbia has escalated tensions and created potential conflicts. Russia should focus on forming alliances with potential allies, such as Serbia, and securing non-intervention treaties with countries like USA. This will help strengthen their position and minimize the risk of being attacked by potential enemies.
+
+2. The Actions to Perform: 
+- Request Military Alliance: ["Serbia"]
+- Request Non-Intervention Treaty: ["USA"]
+
+3. Corresponding Action Inputs: 
+- Request Military Alliance: ["Serbia"]
+- Request Non-Intervention Treaty: ["USA"]
+
+4. Present Final Action List in JSON format: 
+
+[End Thought Process]
+To Serbia: Russia has chosen to Request Military Alliance to Serbia
+To USA: Russia has chosen to Request Non-Intervention Treaty to USA
+--------------
+Secretary has checked the proposed actions by Country S and agree with the action list.
+Serbia
+[Begin Thought Process:]
+1. Thought for Action:
+- Identify Potential Ally Countries: 
+   - Potential allies: Russia (due to shared ethnicity), German Empire (due to shared ethnicity and potential alliance with Austria-Hungary)
+- Analyze Potential Ally Actions: 
+   - Russia: Russia may support Serbia if it is attacked by other countries, but it may also have conflicting interests with Serbia due to land conflict with Austria-Hungary.
+   - German Empire: German Empire may support Serbia due to shared ethnicity and potential alliance with Austria-Hungary, but it may also have conflicting interests with Serbia due to its ambition to dominate the world.
+- Identify Potential Enemy Countries: 
+   - Potential enemies: Austria-Hungary (due to territorial conflict), Britain (due to its strong military power and potential alliance with German Empire), France (due to its hostile relationship with German Empire)
+- Analyze Potential Enemy Actions: 
+   - Austria-Hungary: Austria-Hungary may retaliate against Serbia for assassinating their king.
+   - Britain: Britain may take advantage of the situation to weaken Serbia and potentially expand its own territory.
+   - France: France may support Austria-Hungary against Serbia due to their hostile relationship with German Empire.
+- First Actions to Perform: 
+   - Request military alliance with Russia to gain support in case of attack from other countries.
+   - Request non-intervention treaty with German Empire to ensure they do not support Austria-Hungary against Serbia.
+- Summarize Analysis on Situation: 
+   - Serbia should prioritize forming alliances with Russia and German Empire to gain support and prevent them from supporting Austria-Hungary. Requesting a non-intervention treaty with German Empire can also help minimize the risk of intervention from them. It is important to be prepared for potential retaliation from Austria-Hungary and take defensive measures.
+
+2. The Actions to Perform: 
+- Request Military Alliance: ["Russia"]
+- Request Non-Intervention Treaty: ["German Empire"]
+
+3. Corresponding Action Inputs: 
+- Request Military Alliance: ["Russia"]
+- Request Non-Intervention Treaty: ["German Empire"]
+
+4. Present Final Action List in JSON format: 
+
+[End Thought Process]
+To Russia: Serbia has chosen to Request Military Alliance to Russia
+To German Empire: Serbia has chosen to Request Non-Intervention Treaty to German Empire
+--------------
+Generated result cannot be parsed. Retrying generation of plan for 1 times...
+Secretary has checked the proposed actions by Country U and agree with the action list.
+USA
+[Begin Thought Process:]
+1. Thought for Action:
+# Identify Potential Ally Countries:
+- Potential allies: Britain, German Empire, France
+- Direct allies: None
+- Enemies of your enemies: Russia (enemy of Austria-Hungary and Serbia), Ottoman Empire (enemy of Austria-Hungary)
+- Allies of your allies: German Empire (ally of Austria-Hungary)
+
+# Analyze Potential Ally Actions:
+- Britain: Their key policy is to maintain their position as the strongest country and weaken any country that challenges them, such as German Empire. They may be interested in forming an alliance to counter German Empire's aggression.
+- German Empire: Their key policy is to defeat Britain and dominate the world. They may be interested in forming an alliance to strengthen their position against Britain.
+- France: They want revenge on German Empire and to take back the iron mines. They may be interested in forming an alliance to counter German Empire's aggression.
+
+# Identify Potential Enemy Countries:
+- Potential enemies: Austria-Hungary, Serbia, Russia, Ottoman Empire
+- Direct enemies: Austria-Hungary, Serbia
+- Enemies of your allies: Austria-Hungary (enemy of German Empire), Serbia (enemy of Russia)
+- Allies of your enemies: Russia (ally of Serbia), Ottoman Empire (ally of Austria-Hungary)
+
+# Analyze Potential Enemy Actions:
+- Austria-Hungary: They may seek external conflicts to divert attention and unify the country. They may be a potential threat.
+- Serbia: They have the ambition to expand their territory and may pose a threat to neighboring countries.
+- Russia: They have interest conflicts with Austria-Hungary and may support Serbia militarily. They may pose a threat to neighboring countries.
+- Ottoman Empire: They have tense relations with Russia and may seek support from major powers. They may pose a threat to neighboring countries.
+
+# First Actions to Perform:
+- Request Military Alliance with Britain, German Empire, and France to counter the potential threats from Austria-Hungary, Serbia, Russia, and Ottoman Empire.
+- Send a message to Britain, German Empire, and France to express the interest in forming an alliance and discuss the potential benefits.
+
+# Summarize Analysis on Situation:
+Based on the analysis, it is crucial to form alliances with Britain, German Empire, and France to counter the potential threats from Austria-Hungary, Serbia, Russia, and Ottoman Empire. Requesting military alliances and sending messages to express the interest in forming alliances should be the first actions to perform.
+
+2. The Actions to Perform:
+- Request Military Alliance with Britain, German Empire, and France
+- Send a message to Britain, German Empire, and France
+
+3. Corresponding Action Inputs:
+- Request Military Alliance: ["Britain", "German Empire", "France"]
+- Send Message: [("Britain", "I would like to discuss the potential benefits of forming a military alliance."), ("German Empire", "Let's discuss the possibility of forming a military alliance to counter potential threats."), ("France", "We should consider forming a military alliance to counter the aggression of German Empire.")]
+
+4. Present Final Action List in JSON format:
+
+[End Thought Process]
+To Britain: USA has chosen to Request Military Alliance to Britain
+To German Empire: USA has chosen to Request Military Alliance to German Empire
+To France: USA has chosen to Request Military Alliance to France
+To Britain: USA has chosen to Send Message to Britain with the following content: I would like to discuss the potential benefits of forming a military alliance.
+To German Empire: USA has chosen to Send Message to German Empire with the following content: Let's discuss the possibility of forming a military alliance to counter potential threats.
+To France: USA has chosen to Send Message to France with the following content: We should consider forming a military alliance to counter the aggression of German Empire.
+--------------
+Secretary has checked the proposed actions by Country O and agree with the action list.
+Ottoman Empire
+[Begin Thought Process:]
+1. Thought for Action:
+# Identify Potential Ally Countries:
+- Potential allies: Russia, USA
+- Direct allies: None
+- Enemies of your enemies: France, German Empire
+- Allies of your allies: None
+
+# Analyze Potential Ally Actions:
+- Russia: Russia has interest conflict with Austria-Hungary over lands with ports. They may be willing to support you against Austria-Hungary.
+- USA: USA prioritizes self-interest and may not be interested in getting involved in conflicts unless it is profitable for them.
+
+# Identify Potential Enemy Countries:
+- Potential enemies: Austria-Hungary, Serbia
+- Direct enemies: Austria-Hungary
+- Enemies of your ally: None
+- Allies of your enemy: France
+
+# Analyze Potential Enemy Actions:
+- Austria-Hungary: Austria-Hungary has interest conflict with Russia over lands with ports. They may see this situation as an opportunity to take advantage of the chaos and expand their territory.
+- Serbia: Serbia has ambition to expand its territory and may take advantage of the situation to attack you.
+
+# First Actions to Perform:
+- Request Military Alliance with Russia to gain their support against Austria-Hungary.
+- Request Non-Intervention Treaty with USA to ensure they do not assist your enemies.
+
+# Summarize Analysis on Situation:
+Based on the analysis, it is crucial to secure alliances and non-intervention treaties to protect your interests. Requesting a military alliance with Russia can provide support against Austria-Hungary, while requesting a non-intervention treaty with USA can prevent them from assisting your enemies. These actions will help ensure your survival and protect your remaining territory.
+
+2. The Actions to Perform:
+- Request Military Alliance: ["Russia"]
+- Request Non-Intervention Treaty: ["USA"]
+
+3. Corresponding Action Inputs:
+- Request Military Alliance: ["Russia"]
+- Request Non-Intervention Treaty: ["USA"]
+
+4. Present Final Action List in JSON format:
+
+[End Thought Process]
+To Russia: Ottoman Empire has chosen to Request Military Alliance to Russia
+To USA: Ottoman Empire has chosen to Request Non-Intervention Treaty to USA
+--------------
+For Country B:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country F:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country P:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country A:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country R:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country S:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country U:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+For Country O:
+B*-*F B*-*P B*-*A B*-*R B*-*S B*-*U B*-*O
+F*-*B F*x*P F*-*A F*-*R F*-*S F*-*U F*-*O
+P*-*B P*x*F P*-*A P*-*R P*-*S P*-*U P*-*O
+A*-*B A*-*F A*-*P A*-*R A*-*S A*-*U A*-*O
+R*-*B R*-*F R*-*P R*-*A R*-*S R*-*U R*-*O
+S*-*B S*-*F S*-*P S*-*A S*-*R S*-*U S*-*O
+U*-*B U*-*F U*-*P U*-*A U*-*R U*-*S U*-*O
+O*-*B O*-*F O*-*P O*-*A O*-*R O*-*S O*-*U
+Country P's army is mobilized. 
+===================
+~~~~~~~Day 2~~~~~~~
+===================
+Generated result cannot be parsed. Retrying generation of plan for 1 times...
+Generated result cannot be parsed. Retrying generation of plan for 2 times...
+Generated result cannot be parsed. Retrying generation of plan for 3 times...
+Generated result cannot be parsed. Retrying generation of plan for 4 times...
+Generated result cannot be parsed. Retrying generation of plan for 5 times...
+Generated result cannot be parsed. Retrying generation of plan for 6 times...
+Generated result cannot be parsed. Retrying generation of plan for 7 times...
+Generated result cannot be parsed. Retrying generation of plan for 8 times...
+Generated result cannot be parsed. Retrying generation of plan for 9 times...
+Maximum retries reached, no action generated.
+Secretary has checked the proposed actions by Country B and agree with the action list.
+Britain
+[Begin Thought Process:]
+There is nothing special I need to do
+[End Thought Process]
+Britain has chosen to Wait without Action
+--------------
+Generated result cannot be parsed. Retrying generation of plan for 1 times...
+Generated result cannot be parsed. Retrying generation of plan for 2 times...
+Generated result cannot be parsed. Retrying generation of plan for 3 times...
+Generated result cannot be parsed. Retrying generation of plan for 4 times...
+Generated result cannot be parsed. Retrying generation of plan for 5 times...
+Generated result cannot be parsed. Retrying generation of plan for 6 times...
+Generated result cannot be parsed. Retrying generation of plan for 7 times...
+Generated result cannot be parsed. Retrying generation of plan for 8 times...

@@ -315,7 +315,13 @@ if __name__ == '__main__':
     # board.single_update('M', 'S', 'R')  # S forms a military alliance with R
     # board.single_update('T', 'A', 'P')  # A has a non-intervention treaty with P
     # board.single_update('P', 'R', 'O')  # R signs a peace agreement with O
-    board.batch_update({'W': [('B', 'F')], 'M': [('S', 'R')], 'T': [('A', 'P')], 'P': [('R', 'O')]})
+    # board.batch_update({'W': [('B', 'F')], 'M': [('S', 'R')], 'T': [('A', 'P')], 'P': [('R', 'O')]})
+
+    board.batch_update({'W': [('P', 'F')]}) # gpt3.5
+    # board.batch_update({'M': [('B', 'F'), ('P', 'A'), ('R', 'S'), ('B', 'U')], 
+    #                     'T': [('B', 'A'), ('B', 'R'), ('B', 'U'), ('B', 'O'), 
+    #                           ('F', 'U'), ('F', 'O'), ('P', 'O'), ('R', 'U'), 
+    #                           ('R', 'O'), ('U', 'O')]}) # gpt4
 
     # To print the board for wars
     board.display_single_type_board('W')
@@ -329,3 +335,4 @@ if __name__ == '__main__':
     board.display_board()
     print('----')
     print(board.translate_to_text())
+    board.draw_graph(save_fig='../../fig/test_graph.png')
