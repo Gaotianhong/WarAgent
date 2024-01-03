@@ -67,6 +67,21 @@ link to [video](https://drive.google.com/file/d/1-0dh0Un72LhswMTiPsYn1xTb12xwjy0
 
 -[2023.11.28] We release the initial version of WarAgent, including the source code, data, and evaluation metrics.
 
+-[2024.1.3] Add support for gpt-3.5, which is cheaper than gpt-4, but not very smart.
+
+* gpt-3.5 usage:
+```
+python main.py --model gpt-3.5-turbo-16k --scenario WWI --present_thought_process
+```
+thought_process can be found in [gpt3.5_output.log](src/log/trigger/gpt3.5_output.log), one round simulation result in [test_2024-01-02_16:00:17.log](src/log/trigger/test_2024-01-02_16:00:17.log).
+
+* gpt-4 usage:
+```
+python main.py --model gpt-4-1106-preview --scenario WWI --present_thought_process
+```
+thought_process can be found in [gpt4_output.log](src/log/trigger/gpt4_output.log), two rounds simulation result in [test_2024-01-02_19:15:43.log](src/log/trigger/test_2024-01-02_19:15:43.log).
+
+Tips: price of gpt-4 is 30 times of gpt-3.5
 
 ## License
 The source code of WarAgent is licensed under [Apache 2.0](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE). The intended purpose is solely for research use.

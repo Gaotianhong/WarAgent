@@ -35,7 +35,7 @@ def create_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('--trigger', type=str, default="Country S sent assassins and killed the King of Country A", help='triggering event')
     parser.add_argument('--rounds', type=int, default=10, help='number of rounds')
-    parser.add_argument('--model', type=str, default='gpt-4-1106-preview', help='model name: claude-2 or gpt-4-1106-preview')
+    parser.add_argument('--model', type=str, default='gpt-3.5-turbo-16k', help='model name: claude-2 or gpt-4-1106-preview or gpt-3.5-turbo-16k')
     parser.add_argument('--experiment_type', type=str, default='trigger', help='experiment name: accuracy, trigger, or country_profile')
     parser.add_argument('--experiment_name', type=str, default='test', help='special name for experiment in logging file name')
     parser.add_argument('--scenario', type=str, default='WWI', help='WWI, WWII, Warring_States_Period')
@@ -64,16 +64,19 @@ os.environ["OPENAI_API_KEY"] = ""
 # Country R's army has killed over hundreds soldiers from Country A in the conflict, feuling Country A's anger.
 # """
 
+# Warring_States_Period
+# trigger = "A powerful country was divided by Country H, Country Z and Country W"
+
 ## define all agents
 WWI_agents = [
-        "Country B",
-        "Country F",
-        "Country P",
-        "Country A",
-        "Country R",
-        "Country S",
-        "Country U",
-        "Country O",
+        "Country B", # Britain
+        "Country F", # France
+        "Country P", # German Empire
+        "Country A", # Austria-Hungary
+        "Country R", # Russia
+        "Country S", # Serbia
+        "Country U", # US
+        "Country O", # Ottoman Empire
     ]
 
 WWII_agents = [
@@ -90,12 +93,12 @@ WWII_agents = [
 
 Warring_agents = [
         "Country B",# Country Qi
-        "Country C",
-        "Country Y",
-        "Country H",
-        "Country Z",
-        "Country W",
-        "Country Q",
+        "Country C",# Country Chu
+        "Country Y",# Country Yan
+        "Country H",# Country Han
+        "Country Z",# Country Zhao
+        "Country W",# Country Wei
+        "Country Q",# Country Qin
     ]
 
 def creating_log(experiment_type, experiment_name):
